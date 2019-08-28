@@ -45,3 +45,10 @@ body{
 .thanks-title{
     font-size: 60px!important;
 }
+/*===================================
+              modal
+===================================*/
+.modal-footer > 
+a:link { color: #2c3e50; }
+a:visited { color: #2c3e50; }
+a:hover { color: #2c3e50; }

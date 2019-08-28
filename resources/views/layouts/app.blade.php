@@ -11,13 +11,14 @@
 
     <!-- Scripts -->
     <!--<script src="{{ asset('js/app.js') }}" defer></script>-->
-
+    <!-- Styles -->
+    <!--<link href="{{ asset('css/app.css') }}" rel="stylesheet">-->
+    
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <!--<link href="{{ asset('css/app.css') }}" rel="stylesheet">-->
+    <!--FONTAWESOME-->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -28,7 +29,7 @@
         <nav class="nav-wrapper deep-orange">
             <div class="container">
                 <a class="brand-logo left" href="{{ url('/') }}">
-                    Raw Lawn Service
+                    MyPortfolio
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
@@ -92,6 +93,8 @@
       duration:1000,
       indicators:false
   });
+    const modal = document.querySelectorAll('.modal');
+    M.Modal.init(modal);
 </script>
 </body>
 </html>

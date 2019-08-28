@@ -113,9 +113,9 @@
         <div class="col m4 l3 offset-l2">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <a href="/plans">
+              <a href="#modal1" class='modal-trigger'>
                 <img src="img/subscription.jpg" sizes="(max-width: 305px) 100vw, 305px" />
-                <span class="card-title">Subscription Services</span>
+                <span class="card-title">Laravel Stripe E-Commerce</span>
               </a>
             </div>
           </div>
@@ -153,4 +153,6 @@
     <!--------->
     <!--footer-->
     <!--------->
+
+@include('modals.modal')
 @endsection
