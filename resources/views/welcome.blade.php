@@ -114,7 +114,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal1" class='modal-trigger'>
-                <img class='works-photo' src="img/ecommerse.png" sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/ecommerse.png" sizes="(max-width: 305px) 100vw, 305px"/>
                 <span class="card-title">Laravel Stripe E-Commerce</span>
               </a>
             </div>

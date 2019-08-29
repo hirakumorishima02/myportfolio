@@ -30,6 +30,15 @@ body{
 .works-photo{
     height:150px!important;
 }
+.card:hover img{
+    filter: blur(1px);
+    transition-duration:1s;
+}
+.card:hover .card-title{
+    color: black;
+    transition-duration:1s;
+}
+
 @media screen and (max-width:600px) { 
     .works-photo{
         height:300px!important;
