@@ -83,6 +83,12 @@
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
             <tr>
+              <td class='logo'>jQuery</td>
+              <td>jQuery</td>
+              <td>6month</td>
+              <td><i class="fas thermometer-empty fa-3x"></i></td>
+            </tr>
+            <tr>
               <td><i class="fab fa-vuejs fa-5x"></i></td>
               <td>Vue.js</td>
               <td>2month</td>
@@ -143,11 +149,13 @@
     <!---------------------->
     <!--    Cards Menu    -->
     <!---------------------->
+    <div class='red-foot deep-orange' id='products'></div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/products.png"></div>
+    </div>
     <div class='red-foot deep-orange'></div>
-    <div class='parallax-container'></div>
-    <div class='red-foot deep-orange'></div>
-    <div class="row" id='products'>
-        <div class="col m4 l3 offset-l1">
+    <div class="row" >
+        <div class="col m4">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal1" class='modal-trigger'>
@@ -157,7 +165,7 @@
             </div>
           </div>
         </div>
-        <div class="col m4 l3">
+        <div class="col m4">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal2" class='modal-trigger'>
@@ -167,7 +175,7 @@
             </div>
           </div>
         </div>
-        <div class="col m4 l3">
+        <div class="col m4">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal3" class='modal-trigger'>
@@ -179,7 +187,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col m4 l3 offset-l1">
+        <div class="col m4">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal4" class='modal-trigger'>
@@ -189,7 +197,7 @@
             </div>
           </div>
         </div>
-        <div class="col m4 l3">
+        <div class="col m4">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal5" class='modal-trigger'>
@@ -199,7 +207,7 @@
             </div>
           </div>
         </div>
-        <div class="col m4 l3">
+        <div class="col m4">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal6" class='modal-trigger'>
@@ -211,7 +219,7 @@
         </div>
     </div>
     <div class='row'>
-        <div class="col m4 l3 offset-l1">
+        <div class="col m4">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal7" class='modal-trigger'>
