@@ -289,7 +289,9 @@
             <tbody>
               <tr>
                 <td class='mail'>
-                  <button data-target="modal8" class="btn modal-trigger">Modal</button>
+                  <a href="#modal8" class='modal-trigger'>
+                    <i class="fas fa-envelope fa-2x animated bounce infinite"></i>
+                  </a>
                 </td>
               </tr>              
               <tr>

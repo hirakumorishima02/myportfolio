@@ -66,6 +66,7 @@
   });
     const modal = document.querySelectorAll('.modal');
     M.Modal.init(modal);
+    
     const parallax = document.querySelectorAll('.parallax');
     M.Parallax.init(parallax);
 
