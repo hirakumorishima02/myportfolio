@@ -276,13 +276,19 @@
             <td>
               Materialize1.0.0<br>
               Font Awesome5.6.1<br>
+              Vue2-google-maps<br>
               Google fonts
             </td>
           </tr>
           <tr>
             <td>Main Function</td>
             <td>
-
+              Vue2-google-mapsによるGoogleMap表示<br>
+              ResourceControllerによる非同期通信CRUD<br>
+              SPA構成<br>
+              目的地へのマーカー設置<br>
+              地名オートコンプリート検索<br>
+              メモの追加・削除<br>
             </td>
           </tr>
         </tbody>

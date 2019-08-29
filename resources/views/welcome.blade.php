@@ -114,7 +114,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal1" class='modal-trigger'>
-                <img src="img/subscription.jpg" sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/ecommerse.png" sizes="(max-width: 305px) 100vw, 305px" />
                 <span class="card-title">Laravel Stripe E-Commerce</span>
               </a>
             </div>
@@ -124,7 +124,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal2" class='modal-trigger'>
-                <img src="img/products.jpg"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/invoice.png"sizes="(max-width: 305px) 100vw, 305px" />
                 <span class="card-title">Invoce'n To Do</span>
               </a>
             </div>
@@ -134,7 +134,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal3" class='modal-trigger'>
-                <img src="img/products.jpg"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/ordermade.png"sizes="(max-width: 305px) 100vw, 305px" />
                 <span class="card-title">OrderMade apps Matching</span>
               </a>
             </div>
@@ -146,7 +146,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal4" class='modal-trigger'>
-                <img src="img/subscription.jpg" sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/oldbook.png" sizes="(max-width: 305px) 100vw, 305px" />
                 <span class="card-title">Old Book Store</span>
               </a>
             </div>
@@ -156,7 +156,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal5" class='modal-trigger'>
-                <img src="img/products.jpg"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/sharehouse.png"sizes="(max-width: 305px) 100vw, 305px" />
                 <span class="card-title">ShareHouse Australia</span>
               </a>
             </div>
@@ -166,7 +166,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal6" class='modal-trigger'>
-                <img src="img/products.jpg"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/map.png"/>
                 <span class="card-title">MapLaraVue</span>
               </a>
             </div>
@@ -174,11 +174,11 @@
         </div>
     </div>
     <div class='row'>
-        <div class="col m4 l3">
+        <div class="col m4 l3 offset-l1">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal7" class='modal-trigger'>
-                <img src="img/products.jpg"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/laravelworks.png"sizes="(max-width: 305px) 100vw, 305px" />
                 <span class="card-title">My Laravel Works</span>
               </a>
             </div>

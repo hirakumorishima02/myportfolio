@@ -27,6 +27,19 @@ body{
 .black-foot{
     height:150px;
 }
+.works-photo{
+    height:150px!important;
+}
+@media screen and (max-width:600px) { 
+    .works-photo{
+        height:300px!important;
+    }
+}
+@media screen and (min-width:1400px) {
+    .works-photo{
+        height:300px!important;
+    }
+}
 /*===================================
               subscriptions
 ===================================*/
