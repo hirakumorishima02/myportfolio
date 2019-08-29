@@ -39,40 +39,10 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="right">
-                        <!-- Authentication Links -->
-                        @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li>
-                                <a href="/discounts">Coupon</a>
-                            </li>
-                            <li>
-                                <a href="{{ route('logout') }}"
-                                   onclick="event.preventDefault();
-                                                 document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
-                                </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                    @csrf
-                                </form>
-                            </li>
-                            <li>
-                                <!--ショッピングカートに商品が入っているかどうかの判定-->
-                                <?php $carts = App\Cart::where('complete','0')->where('user_id', Auth::id())->get(); ?>
-                                <!--もし商品が入っていればバッジを表示-->
-                                @if(isset($carts[0]))
-                                <span class="new badge" data-badge-caption="{{ count($carts) }}"></span>
-                                @endif
-                                <a href="/cart"><i class="material-icons" style='padding-top:5px;'>shopping_cart</i></a>
-                            </li>
-                        @endguest
+                        <li class="nav-item"><a href='#about'>About</a></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a href='#products'>Products</a></li>
+                        <li class="nav-item"></li>
                     </ul>
                 </div>
             </div>

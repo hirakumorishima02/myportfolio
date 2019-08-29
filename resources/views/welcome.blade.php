@@ -29,7 +29,7 @@
     <!--------->
     <!--About-->
     <!--------->
-    <div class='grey darken-4 about'>
+    <div class='grey darken-4 about' id='about'>
         <h2 class='center-align title'>About</h2>
         <p >
             If you are looking to change your lawn service company or you don’t want to do it yourself anymore,
@@ -53,53 +53,87 @@
     <!--   Icon Section   -->
     <!---------------------->
       <div class="row icon-section">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons large">sentiment_very_satisfied</i></h2>
-            <h5 class="center">High Quality</h5>
-
-            <p class="light">Our technicians are friendly and knowledgable.
-            They are trained by our licensed owner and are licensed by the NJ DEP for pesticide use and safety.
-            <br>
-            <br>
-            They are certified by Rutgers NJ Agricultural Experiment Station for professional fertilizer applicator
-            certification and training. </p>
-          </div>
+        <div class="col s12 m6">
+        <table class='centered'>
+          <thead>
+            <tr>
+                <th>SKILL</th>
+                <th></th>
+                <th>EXPERIENCE</th>
+                <th>LEVEL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><i class="fab fa-html5 fa-5x"></i></td>
+              <td>HTML</td>
+              <td>1year</td>
+              <td><i class="fas fa-thermometer-half fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fab fa-css3-alt fa-5x"></i></td>
+              <td>CSS</td>
+              <td>1year</td>
+              <td><i class="fas fa-thermometer-half fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fab fa-js fa-5x"></i></td>
+              <td>JavaScript</td>
+              <td>1year</td>
+              <td><i class="fas fa-thermometer-half fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fab fa-vuejs fa-5x"></i></td>
+              <td>Vue.js</td>
+              <td>2month</td>
+              <td><i class="fas fa-thermometer-half fa-3x"></i></td>
+            </tr>
+          </tbody>
+        </table>
         </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons large">trending_down</i></h2>
-            <h5 class="center">Value Price</h5>
-
-            <p class="light">
-            There are four lawn fertilizing programs to choose from. We have a Standard program that is
-            basic fertilizing and weed control. The Standard Plus program adds lime, fungus and grub control.
-            <br>
-            <br>
-            The Deluxe program includes all of the above with lawn seeding in the Fall.
-            There is even a Lawn Builder program that is for starting over or establishing a new lawn.
-            </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons large">fast_forward</i></h2>
-            <h5 class="center">Fast</h5>
-
-            <p class="light">
-              We give free lawn evaluations with our estimates. 
-            <br>
-            <br>
-              You will get a detailed analysis of your lawn’s size, predominant grass types, thatch layer, 
-              turf density and soil pH.
-            <br>
-            <br>
-              We will identify weed infestation, 
-              insect and pest activity and then fungus and diseases that might be troubling your lawn.
-              </p>
-          </div>
+        <div class="col s12 m6">
+        <table class='centered'>
+          <thead>
+            <tr>
+                <th>SKILL</th>
+                <th></th>
+                <th>EXPERIENCE</th>
+                <th>LEVEL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><i class="fab fa-php fa-5x"></i></td>
+              <td>php</td>
+              <td>6month</td>
+              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fab fa-laravel fa-5x"></i></td>
+              <td>Laravel</td>
+              <td>6month</td>
+              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fab fa-aws fa-5x"></i></td>
+              <td>Cloud9<br>S3<br>EC</td>
+              <td>6month</td>
+              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td class='logo'>heroku</td>
+              <td>heroku</td>
+              <td>6month</td>
+              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td class='logo'>MySQL</td>
+              <td>MySQL</td>
+              <td>6month</td>
+              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+          </tbody>
+        </table>
         </div>
       </div>
     <!---------------------->
@@ -109,7 +143,10 @@
     <!---------------------->
     <!--    Cards Menu    -->
     <!---------------------->
-    <div class="row">
+    <div class='red-foot deep-orange'></div>
+    <div class='parallax-container'></div>
+    <div class='red-foot deep-orange'></div>
+    <div class="row" id='products'>
         <div class="col m4 l3 offset-l1">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">

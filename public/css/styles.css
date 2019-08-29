@@ -2,6 +2,7 @@
                body
 ===================================*/
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 body{
     font-family: 'Quicksand', sans-serif;
 }
@@ -17,9 +18,7 @@ body{
     padding:10px 80px 50px 80px;
     color:white;
 }
-.icon-section{
-    padding:0 50px 0 50px;
-}
+
 .red-foot{
     height:2px;
     margin:0;
@@ -31,14 +30,19 @@ body{
     height:150px!important;
 }
 .card:hover img{
-    filter: blur(1px);
+    filter: blur(5px);
     transition-duration:1s;
+}
+.card-title{
+    opacity:0;
+    font-size:30px;
 }
 .card:hover .card-title{
-    color: black;
+    opacity:1;
+    color: #FF5722;
+    -webkit-text-stroke: 1px #FF5722;
     transition-duration:1s;
 }
-
 @media screen and (max-width:600px) { 
     .works-photo{
         height:300px!important;
@@ -48,6 +52,16 @@ body{
     .works-photo{
         height:300px!important;
     }
+}
+
+.logo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 70px;
+}
+.parallax-container{
+    height: 200px;
 }
 /*===================================
               subscriptions
@@ -70,6 +84,9 @@ body{
 /*===================================
               modal
 ===================================*/
+.modal-footer{
+    padding-right: 25px!important;
+}
 .modal-footer > 
 a:link { color: #2c3e50; }
 a:visited { color: #2c3e50; }
