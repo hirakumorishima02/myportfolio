@@ -6,14 +6,15 @@
     <h4 class='center-align'>Laravel Stripe E-Commerce</h4>
     </span>
       <table>
-        <thead>
-          <tr>
-              <th>Langage</th>
-              <th>PHP7.2.19</th>
-          </tr>
-        </thead>
-
         <tbody>
+          <tr>
+              <td>Production Time</td>
+              <td>2019.8.24-2019.8.29</td>
+          </tr>          
+          <tr>
+              <td>Langage</td>
+              <td>PHP7.2.19</td>
+          </tr>
           <tr>
             <td>FlameWork</td>
             <td>Laravel5.8</td>
@@ -65,14 +66,15 @@
     <h4 class='center-align'>Invoce'n To Do</h4>
     </span>
       <table>
-        <thead>
-          <tr>
-              <th>Langage</th>
-              <th>PHP7.2.19</th>
-          </tr>
-        </thead>
-
         <tbody>
+          <tr>
+              <td>Production Time</td>
+              <td>2019.6.12-2019.8.23</td>
+          </tr>          
+          <tr>
+              <td>Langage</td>
+              <td>PHP7.2.19</td>
+          </tr>
           <tr>
             <td>FlameWork</td>
             <td>Laravel5.8</td>
@@ -104,21 +106,22 @@
   </div>
 </div>
 <!-----------------------------------------------------------------------------
-                            
+                            OrderMade apps Matching
 ------------------------------------------------------------------------------->
 <div id="modal3" class="modal">
   <div class="modal-content">
     <h4 class='center-align'>OrderMade apps Matching</h4>
     </span>
       <table>
-        <thead>
-          <tr>
-              <th>Langage</th>
-              <th>PHP7.2.19</th>
-          </tr>
-        </thead>
-
         <tbody>
+          <tr>
+              <td>Production Time</td>
+              <td>2019.7.15-2019.8.1</td>
+          </tr>          
+          <tr>
+              <td>Langage</td>
+              <td>PHP7.2.19</td>
+          </tr>
           <tr>
             <td>FlameWork</td>
             <td>Laravel5.8</td>
@@ -154,24 +157,21 @@
   </div>
 </div>
 <!-----------------------------------------------------------------------------
-                            
+                            Old Book Store
 ------------------------------------------------------------------------------->
 <div id="modal4" class="modal">
   <div class="modal-content">
     <h4 class='center-align'>Old Book Store</h4>
     </span>
       <table>
-        <thead>
-          <tr>
-              <th>Langage</th>
-              <th>PHP7.2.19</th>
-          </tr>
-        </thead>
-
         <tbody>
           <tr>
-            <td>FlameWork</td>
-            <td>Laravel5.8</td>
+              <td>Production Time</td>
+              <td>2019.7.11-2019.8.11</td>
+          </tr>          
+          <tr>
+              <td>Langage</td>
+              <td>PHP7.2.19</td>
           </tr>
           <tr>
             <td>Use</td>
@@ -206,24 +206,21 @@
   </div>
 </div>
 <!-----------------------------------------------------------------------------
-                            
+                            ShareHouse Australia
 ------------------------------------------------------------------------------->
 <div id="modal5" class="modal">
   <div class="modal-content">
     <h4 class='center-align'>ShareHouse Australia</h4>
     </span>
       <table>
-        <thead>
-          <tr>
-              <th>Langage</th>
-              <th>PHP7.2.19</th>
-          </tr>
-        </thead>
-
         <tbody>
           <tr>
-            <td>FlameWork</td>
-            <td>Laravel5.8</td>
+              <td>Production Time</td>
+              <td>2019.4.10-2019.5.8</td>
+          </tr>          
+          <tr>
+              <td>Langage</td>
+              <td>PHP7.2.19</td>
           </tr>
           <tr>
             <td>Use</td>
@@ -252,24 +249,21 @@
   </div>
 </div>
 <!-----------------------------------------------------------------------------
-                            
+                            MapLaraVue
 ------------------------------------------------------------------------------->
 <div id="modal6" class="modal">
   <div class="modal-content">
     <h4 class='center-align'>MapLaraVue</h4>
     </span>
       <table>
-        <thead>
-          <tr>
-              <th>Langage</th>
-              <th>PHP7.2.19</th>
-          </tr>
-        </thead>
-
         <tbody>
           <tr>
-            <td>FlameWork</td>
-            <td>Laravel5.8</td>
+              <td>Production Time</td>
+              <td>2019.8.7-2019.8.12</td>
+          </tr>          
+          <tr>
+              <td>Langage</td>
+              <td>PHP7.2.19</td>
           </tr>
           <tr>
             <td>Use</td>
@@ -300,21 +294,22 @@
   </div>
 </div>
 <!-----------------------------------------------------------------------------
-                            
+                            My Laravel Works
 ------------------------------------------------------------------------------->
 <div id="modal7" class="modal">
   <div class="modal-content">
     <h4 class='center-align'>My Laravel Works</h4>
     </span>
       <table>
-        <thead>
-          <tr>
-              <th>Langage</th>
-              <th>HTML</th>
-          </tr>
-        </thead>
-
         <tbody>
+          <tr>
+            <td>Production Time</td>
+            <td>2019.8.1-2019.8.12</td>
+          </tr>   
+          <tr>
+            <td>Langage</td>
+            <td>HTML</td>
+          </tr>          
           <tr>
             <td>FlameWork</td>
             <td>Vue.js</td>
@@ -348,6 +343,16 @@
 </div>
 <!-----------------------------------------------------------------------------
                             PRO CrowdWorker
+------------------------------------------------------------------------------->
+<div id="procrowd" class="modal">
+  <div class="modal-content">
+    <img class="materialboxed" width="100%" src="img/crowdworks.png">
+  <div class="modal-footer">
+    <a href='https://crowdworks.jp/public/employees/1979690?ref=mypage_nav1_account' target="_blank"><i class="fas fa-sign-out-alt fa-3x"></i></a>
+  </div>
+</div>
+<!-----------------------------------------------------------------------------
+                                Mail
 ------------------------------------------------------------------------------->
 <div id="modal8" class="modal">
   <div class="modal-content">

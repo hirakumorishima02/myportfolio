@@ -15,7 +15,7 @@ body{
 .title {
     width: 200px;
     margin:20px auto;
-    border-bottom: 2px solid #22eaaa;
+    border-bottom: 2px solid #FF5722;
 }
 .about > h2 {
     margin-top:0;
@@ -142,14 +142,32 @@ body{
     height:2px;
     margin:0;
 }
+.product-line{
+    height:1px;
+    margin:0;
+}
+.product-under-line{
+    margin-bottom: 15px;
+}
 .black-foot{
-    height:150px;
+    height:170px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.footer-table .mail {
+    padding-bottom: 0;
+}
+.footer-table .copyright{
+    padding-top: 0;
 }
 .footer-table tr{
     border: none;
 }
 .sns > a > i {
     color: #FF5722;
+}
+.fa-envelope{
+    color: white;
 }
 /*===================================
               modal
@@ -161,3 +179,11 @@ body{
 a:link { color: #2c3e50; }
 a:visited { color: #2c3e50; }
 a:hover { color: #2c3e50; }
+
+.footer-table td{
+    margin: 0;
+    padding: 5px 0;
+}
+.footer-table small{
+    color: white;
+}

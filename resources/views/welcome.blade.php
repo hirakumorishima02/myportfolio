@@ -34,11 +34,11 @@
             <div class='col s12 m4'><img class='profile-img' src='img/profile3.jpg'></div>
             <div class='col s12 m8 profile-description'>
               <p>2019年3月にプログラミング未経験から学習を開始。<br>
-              HTML/CSS,JavaScript,PHP,Laravel,Vue.js,jQueryなどを学習。
+              HTML / CSS, JavaScript, PHP, Laravel, Vue.js, jQueryなどを学習。<br>
               その後ポートフォリオを5つ作成し、3ヶ月後に初めてマークアップの案件を獲得しました。<br>
               2018年8月からクラウドソーシングワークスにてWEBライティングの仕事も開始。<br>
               2019年8月現在、『PRO CroudWorker』『PROCW TOP100』
-              <a href="#modal8" class='modal-trigger'>
+              <a href="#procrowd" class='modal-trigger'>
                 <i class="far fa-image"></i>
               </a>
               に選定されています。<br>
@@ -65,23 +65,23 @@
                   </tr>
                   <tr>
                     <td>2018.4-2018.6</td>
-                    <td>フィリピン セブ島 3D ACADEMYにて英語留学 (Intermediate Grade取得)</td>
+                    <td>フィリピン セブ島 3D ACADEMYにて英語留学<br>(Intermediate Grade取得)</td>
                   </tr>
                   <tr>
                     <td>2018.6-2018.7</td>
-                    <td>オーストラリア ケアンズ C.C.E.Bにて英語留学 (Upper Intermediate Grade取得)</td>
+                    <td>オーストラリア ケアンズ C.C.E.Bにて英語留学<br>(Upper Intermediate Grade取得)</td>
                   </tr>
                   <tr>
                     <td>2018.7-2018.8</td>
-                    <td>オーストラリアを車で一周（14000km）</td>
+                    <td>オーストラリアを車で一周（14,000km）</td>
                   </tr>
                   <tr>
                     <td>2018.9-2019.5</td>
-                    <td>オーストラリア パースでシェアハウスマネージャー担当</td>
+                    <td>オーストラリア パースでシェアハウス マネージャーを担当</td>
                   </tr>
                   <tr>
                     <td>2019.5-Now</td>
-                    <td>プログラミング学習中 10h per Day in Kyoto</td>
+                    <td>プログラミング学習中 10 hour / Day in Kyoto</td>
                   </tr>
                 </tbody>
               </table>
@@ -194,11 +194,11 @@
     <!------------------------------------------------------------------>
     <!------------------------    Cards Menu    ------------------------>
     <!------------------------------------------------------------------>
-    <div class='red-foot deep-orange' id='products'></div>
+    <div class='product-line blue accent-1' id='products'></div>
     <div class="parallax-container">
       <div class="parallax"><img src="img/products.png"></div>
     </div>
-    <div class='red-foot deep-orange'></div>
+    <div class='product-line product-under-line deep-orange'></div>
     <div class="row" >
         <div class="col m4">
           <div class="card">
@@ -285,10 +285,15 @@
     <div class='red-foot deep-orange'></div>
     <div class='grey darken-4 black-foot'>
         <div class='row footer-table'>
-          <table class='centered'>
+          <table class='centered footer-table'>
             <tbody>
               <tr>
-                <td>
+                <td class='mail'>
+                  <button data-target="modal8" class="btn modal-trigger">Modal</button>
+                </td>
+              </tr>              
+              <tr>
+                <td class='copyright'>
                   <small>© 2019 Hira</small>
                 </td>
               </tr>
