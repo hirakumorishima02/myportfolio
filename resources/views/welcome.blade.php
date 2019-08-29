@@ -5,8 +5,7 @@
           <li>
             <img src="img/top1.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h3>Welcome to Your Home Lawn Care Provider!</h3>
-              <h5 class="light grey-text text-lighten-3">High Quality</h5>
+              <h2>Welcome to <br>My portfolio site!</h2>
             </div>
           </li>
           <li>
@@ -26,33 +25,75 @@
         </ul>
     </div>
     
-    <!--------->
-    <!--About-->
-    <!--------->
+    <!------------------------------------------------------------------>
+    <!------------------------------About------------------------------->
+    <!------------------------------------------------------------------>
     <div class='grey darken-4 about' id='about'>
         <h2 class='center-align title'>About</h2>
-        <p >
-            If you are looking to change your lawn service company or you don’t want to do it yourself anymore,
-            you have found the right place. This is also a place for current customers.
-            Contact info is at the bottom of this page.
-            <br>
-            <br>
-            We do lawn fertilizing, weed control and seeding.
-            We do not mow the lawn. We are a small local company.
-            Ultra Lawn Services, LLC provides knowledgable lawn maintenance services.
-            Our team of licensed technicians are happy to work for you to give you the best looking lawn.
-            We have many loyal customers with almost perfect lush green lawns.
-        </p>
+          <div class='row'>
+            <div class='col s12 m4'><img class='profile-img' src='img/profile3.jpg'></div>
+            <div class='col s12 m8 profile-description'>
+              <p>2019年3月にプログラミング未経験から学習を開始。<br>
+              HTML/CSS,JavaScript,PHP,Laravel,Vue.js,jQueryなどを学習。
+              その後ポートフォリオを5つ作成し、3ヶ月後に初めてマークアップの案件を獲得しました。<br>
+              2018年8月からクラウドソーシングワークスにてWEBライティングの仕事も開始。<br>
+              2019年8月現在、『PRO CroudWorker』『PROCW TOP100』に選定されています。<br>
+              モットーは「クライアントと共にWIN-WINの関係を築く」ことです。<br></p>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col s12 m10 l8 offset-m1 offset-l2'>
+              <table class='centered highlight'>
+                <thead>
+                  <tr class='experience'>
+                      <th></th>
+                      <th>EXPERIENCE</th>
+                  </tr>
+                </thead>
+                <tbody class='experience'>
+                  <tr>
+                    <td>2013.3</td>
+                    <td>立命館大学 文学部 人文学科 日本文学専攻 卒業</td>
+                  </tr>
+                  <tr>
+                    <td>2013.4-2018.3</td>
+                    <td>京都府 公立中学校 国語科 正式採用教員として勤務</td>
+                  </tr>
+                  <tr>
+                    <td>2018.4-2018.6</td>
+                    <td>フィリピン セブ島 3D ACADEMYにて英語留学 (Intermediate Grade取得)</td>
+                  </tr>
+                  <tr>
+                    <td>2018.6-2018.7</td>
+                    <td>オーストラリア ケアンズ C.C.E.Bにて英語留学 (Upper Intermediate Grade取得)</td>
+                  </tr>
+                  <tr>
+                    <td>2018.7-2018.8</td>
+                    <td>オーストラリアを車で一周（14000km）</td>
+                  </tr>
+                  <tr>
+                    <td>2018.9-2019.5</td>
+                    <td>オーストラリア パースでシェアハウスマネージャー担当</td>
+                  </tr>
+                  <tr>
+                    <td>2019.5-Now</td>
+                    <td>プログラミング学習中 10h per Day in Kyoto</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
     </div>
-    <!--------->
-    <!--About-->
-    <!--------->
+    <!------------------------------------------------------------------>
+    <!-----------------------------About-------------------------------->
+    <!------------------------------------------------------------------>
 
 
-    <!---------------------->
-    <!--   Icon Section   -->
-    <!---------------------->
+    <!------------------------------------------------------------------>
+    <!------------------------   Skill Set   ------------------------>
+    <!------------------------------------------------------------------>
       <div class="row icon-section">
+        <h2 class='center-align title'>Skill Set</h2>
         <div class="col s12 m6">
         <table class='centered'>
           <thead>
@@ -67,26 +108,26 @@
             <tr>
               <td><i class="fab fa-html5 fa-5x"></i></td>
               <td>HTML</td>
-              <td>1year</td>
+              <td>6month</td>
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-css3-alt fa-5x"></i></td>
               <td>CSS</td>
-              <td>1year</td>
+              <td>6month</td>
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-js fa-5x"></i></td>
               <td>JavaScript</td>
-              <td>1year</td>
+              <td>6month</td>
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
             <tr>
-              <td class='logo'>jQuery</td>
+              <td class='logo jquery'>jQuery</td>
               <td>jQuery</td>
               <td>6month</td>
-              <td><i class="fas thermometer-empty fa-3x"></i></td>
+              <td><i class="fas fa-thermometer-empty fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-vuejs fa-5x"></i></td>
@@ -121,20 +162,20 @@
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
             </tr>
             <tr>
+              <td class='logo mysql'>MySQL</td>
+              <td>MySQL</td>
+              <td>6month</td>
+              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+            <tr>
               <td><i class="fab fa-aws fa-5x"></i></td>
               <td>Cloud9<br>S3<br>EC</td>
               <td>6month</td>
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
             </tr>
             <tr>
-              <td class='logo'>heroku</td>
+              <td class='logo heroku'>heroku</td>
               <td>heroku</td>
-              <td>6month</td>
-              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
-            </tr>
-            <tr>
-              <td class='logo'>MySQL</td>
-              <td>MySQL</td>
               <td>6month</td>
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
             </tr>
@@ -142,13 +183,13 @@
         </table>
         </div>
       </div>
-    <!---------------------->
-    <!--   Icon Section   -->
-    <!---------------------->
+    <!------------------------------------------------------------------>
+    <!------------------------   Skill Set   --------------------------->
+    <!------------------------------------------------------------------>
     
-    <!---------------------->
-    <!--    Cards Menu    -->
-    <!---------------------->
+    <!------------------------------------------------------------------>
+    <!------------------------    Cards Menu    ------------------------>
+    <!------------------------------------------------------------------>
     <div class='red-foot deep-orange' id='products'></div>
     <div class="parallax-container">
       <div class="parallax"><img src="img/products.png"></div>
@@ -230,18 +271,18 @@
           </div>
         </div>
     </div>
-    <!---------------------->
-    <!--    Cards Menu    -->
-    <!---------------------->
+    <!------------------------------------------------------------------>
+    <!------------------------    Cards Menu    ------------------------>
+    <!------------------------------------------------------------------>
     
-    <!--------->
-    <!--footer-->
-    <!--------->
+    <!------------------------------------------------------------------>
+    <!-----------------------------footer------------------------------->
+    <!------------------------------------------------------------------>
     <div class='red-foot deep-orange'></div>
     <div class='grey darken-4 black-foot'></div>
-    <!--------->
-    <!--footer-->
-    <!--------->
+    <!------------------------------------------------------------------>
+    <!-----------------------------footer------------------------------->
+    <!------------------------------------------------------------------>
 
 @include('modals.modal')
 @endsection

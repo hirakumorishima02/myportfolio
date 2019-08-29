@@ -9,23 +9,96 @@ body{
 /*===================================
               welcome.blade
 ===================================*/
+/*=================
+        about
+===================*/
 .about > h2 {
     margin-top:0;
     padding-top:20px;
     color:white;
 }
-.about > p{
-    padding:10px 80px 50px 80px;
-    color:white;
+.profile-img{
+    border-radius: 50%;
+    width: 100%;
+    filter: brightness(150%);
+}
+.profile-description{
+    color: white;
+}
+.experience > tr > td, .experience > th{
+    color: white;
+}
+@media screen and (min-width:800px) {
+    .profile-description{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1000px) {
+    .profile-description{
+        font-size: 25px;
+        line-height: 50px;
+    }
+}
+/*=================
+        skill
+===================*/
+.logo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 70px;
+}
+.parallax-container{
+    height: 200px;
+}
+@media screen and (max-width:600px) { 
+    .parallax-container{
+        height: 100px;
+    }
+}
+.fa-thermometer-full{
+    color: red;
+}
+.fa-thermometer-half{
+    color: orange;
+}
+.fa-thermometer-empty,.fa-css3-alt{
+    color: blue;
+}
+.fa-html5{
+    color: #FF5733;
+}
+.fa-css3-alt{
+    color: #264de4;
+}
+.fa-js{
+    color: #F0DB4F;
+}
+.jquery{
+    color: #0769AD;
+}
+.fa-vuejs{
+    color: #41B883;
+}
+.fa-php{
+    color:  #474A8A;
+}
+.fa-laravel{
+    color:  #F05340;
+}
+.mysql{
+    color:  #00758F;
+}
+.fa-aws{
+    color:  #F79C34;
+}
+.heroku{
+    color:  #C9C3E6;
 }
 
-.red-foot{
-    height:2px;
-    margin:0;
-}
-.black-foot{
-    height:150px;
-}
+/*=================
+        product
+===================*/
 .works-photo{
     height:150px!important;
 }
@@ -53,20 +126,15 @@ body{
         height:300px!important;
     }
 }
-
-.logo{
-    font-family: 'Orbitron', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 70px;
+/*=================
+        footer
+===================*/
+.red-foot{
+    height:2px;
+    margin:0;
 }
-.parallax-container{
-    height: 200px;
-}
-@media screen and (max-width:600px) { 
-    .parallax-container{
-        height: 100px;
-    }
+.black-foot{
+    height:150px;
 }
 /*===================================
               subscriptions
