@@ -69,7 +69,16 @@
     
     const parallax = document.querySelectorAll('.parallax');
     M.Parallax.init(parallax);
-
+    function clipboard_ni_copy() 
+    { 
+        var copyText = document.querySelector('#copy-target'); 
+        copyText.select(); 
+        if(document.execCommand('copy')) {
+            alert('クリップボードにコピーしました.');
+        } else {
+            alert('Ctrl+Cを押してください.');
+        }
+    }
 </script>
 </body>
 </html>

@@ -3,24 +3,16 @@
     <div class="slider">
         <ul class="slides">
           <li>
-            <img src="img/top1.jpg"> <!-- random image -->
+            <img src="img/IMG_1255 2.jpg"> <!-- random image -->
             <div class="caption center-align">
               <h2>Welcome to <br>My portfolio site!</h2>
             </div>
           </li>
           <li>
-            <img src="img/top2.jpg"> <!-- random image -->
-            <div class="caption left-align">
-              <h3>More than the price</h3>
-              <h5 class="light grey-text text-lighten-3">Reasonable Price</h5>
-            </div>
+            <img src="img/IMG_1256.jpg"> <!-- random image -->
           </li>
           <li>
-            <img src="img/top3.jpg"> <!-- random image -->
-            <div class="caption right-align">
-              <h3>Agile lawn mowing</h3>
-              <h5 class="light grey-text text-lighten-3">Stress-free waiting time</h5>
-            </div>
+            <img src="img/IMG_1257.jpg"> <!-- random image -->
           </li>
         </ul>
     </div>

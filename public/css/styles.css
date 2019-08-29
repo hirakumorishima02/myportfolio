@@ -23,7 +23,7 @@ body{
     color:white;
 }
 .profile-img{
-    border-radius: 50%;
+    clip-path: polygon(25% 0, 100% 0, 75% 83%, 0 85%);
     width: 100%;
     filter: brightness(150%);
 }

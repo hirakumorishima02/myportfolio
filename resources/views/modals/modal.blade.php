@@ -357,9 +357,8 @@
 ------------------------------------------------------------------------------->
 <div id="modal8" class="modal">
   <div class="modal-content">
-    <img class="materialboxed" width="100%" src="img/crowdworks.png">
-  <div class="modal-footer">
-    <a href='https://crowdworks.jp/public/employees/1979690?ref=mypage_nav1_account' target="_blank"><i class="fas fa-sign-out-alt fa-3x"></i></a>
-  </div>
+    <h5 class='center-align'>Contact me!</h5>
+<input type="text" id="copy-target" value="ujinchu@gmail.com" readonly>
+<i class="fas fa-copy fa-2x" onclick="clipboard_ni_copy()"></i>
   </div>
 </div>
