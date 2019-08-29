@@ -283,7 +283,30 @@
     <!-----------------------------footer------------------------------->
     <!------------------------------------------------------------------>
     <div class='red-foot deep-orange'></div>
-    <div class='grey darken-4 black-foot'></div>
+    <div class='grey darken-4 black-foot'>
+        <div class='row footer-table'>
+          <table class='centered'>
+            <tbody>
+              <tr>
+                <td>
+                  <small>© 2019 Hira</small>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="col s12 sns">
+                    <a href='https://github.com/hirakumorishima02' target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+                    <a href='https://twitter.com/hiwriterprogram' target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a href='https://www.facebook.com/ujinchu' target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href='https://www.facebook.com/ujinchu' target="_blank"><i class="fab fa-blogger fa-2x"></i></a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+            </div>
+        </div>
+    </div>
     <!------------------------------------------------------------------>
     <!-----------------------------footer------------------------------->
     <!------------------------------------------------------------------>
