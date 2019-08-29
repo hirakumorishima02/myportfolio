@@ -37,7 +37,11 @@
               HTML/CSS,JavaScript,PHP,Laravel,Vue.js,jQueryなどを学習。
               その後ポートフォリオを5つ作成し、3ヶ月後に初めてマークアップの案件を獲得しました。<br>
               2018年8月からクラウドソーシングワークスにてWEBライティングの仕事も開始。<br>
-              2019年8月現在、『PRO CroudWorker』『PROCW TOP100』に選定されています。<br>
+              2019年8月現在、『PRO CroudWorker』『PROCW TOP100』
+              <a href="#modal8" class='modal-trigger'>
+                <i class="far fa-image"></i>
+              </a>
+              に選定されています。<br>
               モットーは「クライアントと共にWIN-WINの関係を築く」ことです。<br></p>
             </div>
           </div>
@@ -92,7 +96,7 @@
     <!------------------------------------------------------------------>
     <!------------------------   Skill Set   ------------------------>
     <!------------------------------------------------------------------>
-      <div class="row icon-section">
+      <div class="row icon-section" id='skill'>
         <h2 class='center-align title'>Skill Set</h2>
         <div class="col s12 m6">
         <table class='centered'>

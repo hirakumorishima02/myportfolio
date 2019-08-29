@@ -40,9 +40,8 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="right">
                         <li class="nav-item"><a href='#about'>About</a></li>
-                        <li class="nav-item"></li>
+                        <li class="nav-item"><a href='#skill'>Skills</a></li>
                         <li class="nav-item"><a href='#products'>Products</a></li>
-                        <li class="nav-item"></li>
                     </ul>
                 </div>
             </div>
