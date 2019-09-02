@@ -290,7 +290,7 @@
   </div>
   <div class="modal-footer">
     <a href='' target="_blank"><i class="fab fa-app-store-ios fa-3x"></i></a>
-    <a href='' target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+    <a href='https://github.com/hirakumorishima02/GoogleMap-Laravel-Vue' target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
   </div>
 </div>
 <!-----------------------------------------------------------------------------
