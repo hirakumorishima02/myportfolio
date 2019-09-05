@@ -17,6 +17,9 @@ body{
     margin:20px auto;
     border-bottom: 2px solid #FF5722;
 }
+.about {
+    padding-bottom:1px;
+}
 .about > h2 {
     margin-top:0;
     padding-top:20px;
@@ -49,8 +52,13 @@ body{
     }
 }
 /*=================
-        skill
+    Dev skill
 ===================*/
+.skill-title{
+    width: 380px;
+    margin:20px auto;
+    border-bottom: 2px solid #FF5722;
+}
 .logo{
     font-family: 'Orbitron', sans-serif;
     font-size: 25px;
@@ -95,6 +103,9 @@ body{
 .fa-laravel{
     color:  #F05340;
 }
+.fa-react{
+    color:  #00d8ff;
+}
 .mysql{
     color:  #00758F;
 }
@@ -104,7 +115,24 @@ body{
 .heroku{
     color:  #C9C3E6;
 }
-
+/*=================
+    Dev skill
+===================*/
+.fa-chalkboard-teacher{
+    color:  #2FCDB4;
+}
+.fa-laptop{
+    color:  #1253A4;
+}
+.fa-comments{
+    color:  #FFD464;
+}
+.fa-hand-holding-heart{
+    color:  #F26964;
+}
+.fa-fire{
+    color:  red;
+}
 /*=================
         product
 ===================*/

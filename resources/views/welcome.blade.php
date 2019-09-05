@@ -23,7 +23,14 @@
     <div class='grey darken-4 about' id='about'>
         <h2 class='center-align title'>About</h2>
           <div class='row'>
-            <div class='col s12 m4'><img class='profile-img' src='img/profile3.jpg'></div>
+            <div class='col s12 m4'>
+              <img class='profile-img' src='img/profile3.jpg'>
+                <div class="col s12 sns center">
+                  <a href='https://github.com/hirakumorishima02' target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+                  <a href='https://twitter.com/hiwriterprogram' target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+                  <a href='https://www.facebook.com/ujinchu' target="_blank"><i class="fab fa-blogger fa-2x"></i></a>
+                </div>
+            </div>
             <div class='col s12 m8 profile-description'>
               <p>2019年3月にプログラミング未経験から学習を開始。<br>
               HTML / CSS, JavaScript, PHP, Laravel, Vue.js, jQueryなどを学習。<br>
@@ -73,7 +80,7 @@
                   </tr>
                   <tr>
                     <td>2019.5-Now</td>
-                    <td>プログラミング学習中 10 hour / Day in Kyoto</td>
+                    <td>プログラミング学習中 over 10 hour / Day in Kyoto</td>
                   </tr>
                 </tbody>
               </table>
@@ -86,10 +93,10 @@
 
 
     <!------------------------------------------------------------------>
-    <!------------------------   Skill Set   ------------------------>
+    <!--------------------   Programing Skill Set   -------------------->
     <!------------------------------------------------------------------>
       <div class="row icon-section" id='skill'>
-        <h2 class='center-align title'>Skill Set</h2>
+        <h2 class='center-align skill-title'>Dev Skills Set</h2>
         <div class="col s12 m6">
         <table class='centered'>
           <thead>
@@ -104,31 +111,37 @@
             <tr>
               <td><i class="fab fa-html5 fa-5x"></i></td>
               <td>HTML</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-css3-alt fa-5x"></i></td>
               <td>CSS</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-js fa-5x"></i></td>
               <td>JavaScript</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
             <tr>
               <td class='logo jquery'>jQuery</td>
               <td>jQuery</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-empty fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fab fa-react fa-5x"></i></td>
+              <td>React</td>
+              <td>1month</td>
+              <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-vuejs fa-5x"></i></td>
               <td>Vue.js</td>
-              <td>2month</td>
+              <td>2months</td>
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
             </tr>
           </tbody>
@@ -148,32 +161,94 @@
             <tr>
               <td><i class="fab fa-php fa-5x"></i></td>
               <td>php</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-laravel fa-5x"></i></td>
               <td>Laravel</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
             </tr>
             <tr>
               <td class='logo mysql'>MySQL</td>
               <td>MySQL</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-aws fa-5x"></i></td>
               <td>Cloud9<br>S3<br>EC</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
             </tr>
             <tr>
               <td class='logo heroku'>heroku</td>
               <td>heroku</td>
-              <td>6month</td>
+              <td>6months</td>
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    <!------------------------------------------------------------------>
+    <!------------------------   Skill Set   --------------------------->
+    <!------------------------------------------------------------------>
+
+    <!------------------------------------------------------------------>
+    <!--------------------   Other Skill Set   -------------------->
+    <!------------------------------------------------------------------>
+      <div class="row icon-section" id='skill'>
+        <h2 class='center-align skill-title'>Other Skills Set</h2>
+        <div class="col s12 m6">
+        <table class='centered'>
+          <thead>
+            <tr>
+                <th>SKILL</th>
+                <th></th>
+                <th>EXPERIENCE</th>
+                <th>LEVEL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><i class="fas fa-chalkboard-teacher fa-5x"></i></td>
+              <td>Japanese Teacher</td>
+              <td>4years</td>
+              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-laptop fa-5x"></i></td>
+              <td>Web Writer</td>
+              <td>12months</td>
+              <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <div class="col s12 m6">
+        <table class='centered'>
+          <thead>
+            <tr>
+                <th>SKILL</th>
+                <th></th>
+                <th>EXPERIENCE</th>
+                <th>LEVEL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><i class="fas fa-comments fa-5x"></i></td>
+              <td>English</td>
+              <td>12months</td>
+              <td><i class="fas fa-thermometer-half fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-hand-holding-heart fa-5x"></i></td>
+              <td>Passion</td>
+              <td>28years</td>
+              <td><i class="fas fa-fire fa-3x"></i></td>
             </tr>
           </tbody>
         </table>
@@ -296,7 +371,6 @@
                   <div class="col s12 sns">
                     <a href='https://github.com/hirakumorishima02' target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
                     <a href='https://twitter.com/hiwriterprogram' target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
-                    <a href='https://www.facebook.com/ujinchu' target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
                     <a href='https://www.facebook.com/ujinchu' target="_blank"><i class="fab fa-blogger fa-2x"></i></a>
                   </div>
                 </td>

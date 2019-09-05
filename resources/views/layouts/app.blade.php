@@ -31,7 +31,7 @@
         <nav class="nav-wrapper deep-orange">
             <div class="container">
                 <a class="brand-logo left" href="{{ url('/') }}">
-                    MyPortfolio
+                    MyPortfolioSite
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
