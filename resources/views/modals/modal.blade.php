@@ -342,6 +342,61 @@
   </div>
 </div>
 <!-----------------------------------------------------------------------------
+                            HandsOn
+------------------------------------------------------------------------------->
+
+<!-----------------------------------------------------------------------------
+                            HandsOn
+------------------------------------------------------------------------------->
+<div id="modal9" class="modal">
+  <div class="modal-content">
+    <h4 class='center-align'>HandsOn</h4>
+    </span>
+      <table>
+        <tbody>
+          <tr>
+            <td>Production Time</td>
+            <td>2019.9.5-2019.9.9</td>
+          </tr>   
+          <tr>
+            <td>Langage</td>
+            <td>Javascript</td>
+          </tr>          
+          <tr>
+            <td>FlameWork</td>
+            <td>React Native</td>
+          </tr>
+          <tr>
+            <td>Use</td>
+            <td>
+              React 16.8.3<br>
+              React Native<br>
+              Expo<br>
+              Firebase Cloud Storage<br>
+              Font Awesome5.6.1<br>
+              XCode<br>
+              iOS Simulator<br>
+              Sketch<br>
+              Node JS<br>
+            </td>
+          </tr>
+          <tr>
+            <td>Main Function</td>
+            <td>
+              メモ追加・編集・削除<br>
+              新規会員登録<br>
+              自動ログイン<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <div class="modal-footer">
+    <!--<a href='https://affectionate-curie-152118.netlify.com/' target="_blank"><i class="fab fa-app-store-ios fa-3x"></i></a>-->
+    <a href='https://github.com/hirakumorishima02/react-native-memo-app' target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+  </div>
+</div>
+<!-----------------------------------------------------------------------------
                             PRO CrowdWorker
 ------------------------------------------------------------------------------->
 <div id="procrowd" class="modal">

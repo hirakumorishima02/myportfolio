@@ -3,16 +3,16 @@
     <div class="slider">
         <ul class="slides">
           <li>
-            <img src="img/IMG_1255 2.jpg"> <!-- random image -->
+            <img src="img/IMG_1255 2.jpg" decoding="async" loading="lazy"> <!-- random image -->
             <div class="caption center-align">
               <h2>Welcome to <br>My portfolio site!</h2>
             </div>
           </li>
           <li>
-            <img src="img/IMG_1256.jpg"> <!-- random image -->
+            <img src="img/IMG_1256.jpg" decoding="async" loading="lazy"> <!-- random image -->
           </li>
           <li>
-            <img src="img/IMG_1257.jpg"> <!-- random image -->
+            <img src="img/IMG_1257.jpg" decoding="async" loading="lazy"> <!-- random image -->
           </li>
         </ul>
     </div>
@@ -24,7 +24,7 @@
         <h2 class='center-align title'>About</h2>
           <div class='row'>
             <div class='col s12 m4'>
-              <img class='profile-img' src='img/profile3.jpg'>
+              <img class='profile-img' src='img/profile3.jpg' decoding="async" loading="lazy">
                 <div class="col s12 sns center">
                   <a href='https://github.com/hirakumorishima02' target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
                   <a href='https://twitter.com/hiwriterprogram' target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
@@ -134,9 +134,15 @@
             </tr>
             <tr>
               <td><i class="fab fa-react fa-5x"></i></td>
-              <td>React</td>
+              <td>React<br>React Native</td>
               <td>1month</td>
               <td><i class="fas fa-thermometer-half fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td class='logo next'>Next.js</td>
+              <td>Next.js</td>
+              <td>1month</td>
+              <td><i class="fas fa-thermometer-empty fa-3x"></i></td>
             </tr>
             <tr>
               <td><i class="fab fa-vuejs fa-5x"></i></td>
@@ -259,11 +265,11 @@
     <!------------------------------------------------------------------>
     
     <!------------------------------------------------------------------>
-    <!------------------------    Cards Menu    ------------------------>
+    <!-------------------------    Product    -------------------------->
     <!------------------------------------------------------------------>
     <div class='product-line blue accent-1' id='products'></div>
     <div class="parallax-container">
-      <div class="parallax"><img src="img/products.png"></div>
+      <div class="parallax"><img src="img/products.png" decoding="async" loading="lazy"></div>
     </div>
     <div class='product-line product-under-line deep-orange'></div>
     <div class="row" >
@@ -271,7 +277,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal1" class='modal-trigger'>
-                <img class='works-photo' src="img/ecommerse.png" sizes="(max-width: 305px) 100vw, 305px"/>
+                <img class='works-photo' src="img/ecommerse.png" sizes="(max-width: 305px) 100vw, 305px"  decoding="async" loading="lazy"/>
                 <span class="card-title">Laravel Stripe E-Commerce</span>
               </a>
             </div>
@@ -281,7 +287,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal2" class='modal-trigger'>
-                <img class='works-photo' src="img/invoice.png"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/invoice.png"sizes="(max-width: 305px) 100vw, 305px" decoding="async" loading="lazy" />
                 <span class="card-title">Invoce'n To Do</span>
               </a>
             </div>
@@ -291,7 +297,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal3" class='modal-trigger'>
-                <img class='works-photo' src="img/ordermade.png"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/ordermade.png"sizes="(max-width: 305px) 100vw, 305px" decoding="async" loading="lazy" />
                 <span class="card-title">OrderMade apps Matching</span>
               </a>
             </div>
@@ -303,7 +309,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal4" class='modal-trigger'>
-                <img class='works-photo' src="img/oldbook.png" sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/oldbook.png" sizes="(max-width: 305px) 100vw, 305px" decoding="async" loading="lazy" />
                 <span class="card-title">Old Book Store</span>
               </a>
             </div>
@@ -313,7 +319,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal5" class='modal-trigger'>
-                <img class='works-photo' src="img/sharehouse.png"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/sharehouse.png"sizes="(max-width: 305px) 100vw, 305px" decoding="async" loading="lazy" />
                 <span class="card-title">ShareHouse Australia</span>
               </a>
             </div>
@@ -323,7 +329,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal6" class='modal-trigger'>
-                <img class='works-photo' src="img/map.png"/>
+                <img class='works-photo' src="img/map.png" decoding="async" loading="lazy"/>
                 <span class="card-title">MapLaraVue</span>
               </a>
             </div>
@@ -335,7 +341,7 @@
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <a href="#modal7" class='modal-trigger'>
-                <img class='works-photo' src="img/laravelworks.png"sizes="(max-width: 305px) 100vw, 305px" />
+                <img class='works-photo' src="img/laravelworks.png"sizes="(max-width: 305px) 100vw, 305px" decoding="async" loading="lazy" />
                 <span class="card-title">My Laravel Works</span>
               </a>
             </div>
@@ -343,7 +349,41 @@
         </div>
     </div>
     <!------------------------------------------------------------------>
-    <!------------------------    Cards Menu    ------------------------>
+    <!-------------------------    Product    -------------------------->
+    <!------------------------------------------------------------------>
+    
+    <!------------------------------------------------------------------>
+    <!----------------------    Mobile Product    ---------------------->
+    <!------------------------------------------------------------------>
+    <!--<div class='product-line blue accent-1' id='products'></div>-->
+    <!--<div class="parallax-container">-->
+    <!--  <div class="parallax"><img src="img/mobileProducts.png"></div>-->
+    <!--</div>-->
+    <!--<div class='product-line product-under-line deep-orange'></div>-->
+    <!--<div class="row" >-->
+    <!--    <div class="col s6 m2">-->
+    <!--      <div class="card">-->
+    <!--        <div class="card-image waves-effect waves-block waves-light">-->
+    <!--          <a href="#modal9" class='modal-trigger'>-->
+    <!--            <img class='works-photo' src="img/ecommerse.png" sizes="(max-width: 305px) 100vw, 305px"/>-->
+    <!--            <span class="card-title">HandsOn</span>-->
+    <!--          </a>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--    <div class="col s6 m2">-->
+    <!--      <div class="card">-->
+    <!--        <div class="card-image waves-effect waves-block waves-light">-->
+    <!--          <a href="#modal2" class='modal-trigger'>-->
+    <!--            <img class='works-photo' src="img/invoice.png"sizes="(max-width: 305px) 100vw, 305px" />-->
+    <!--            <span class="card-title">Repeeeeeeet<br>(Line Bot)</span>-->
+    <!--          </a>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    <!------------------------------------------------------------------>
+    <!----------------------    Mobile Product    ---------------------->
     <!------------------------------------------------------------------>
     
     <!------------------------------------------------------------------>
