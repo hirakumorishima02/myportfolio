@@ -40,7 +40,7 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="right">
+                    <ul class="right hide-on-med-and-down">
                         <li class="nav-item"><a href='#about'>About</a></li>
                         <li class="nav-item"><a href='#skill'>Skills</a></li>
                         <li class="nav-item"><a href='#products'>Products</a></li>
