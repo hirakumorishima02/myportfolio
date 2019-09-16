@@ -33,11 +33,12 @@ body{
 .profile-description{
     color: white;
 }
-.experience tr
+.experience, .awards-history tr
 {
     border: none;
 }
-.experience > tr > td, .experience > th{
+.experience > tr > td, .experience,
+.awards-history > tr > td, .awards-history > th {
     color: white;
 }
 @media screen and (min-width:800px) {
@@ -133,6 +134,9 @@ body{
 .fa-fire{
     color:  red;
 }
+.firebase{
+    color: #F4B400;
+}
 /*=================
         product
 ===================*/
@@ -214,4 +218,8 @@ a:hover { color: #2c3e50; }
 .footer-table td{
     margin: 0;
     padding: 5px 0;
+}
+
+.QR {
+    width: 70px;
 }

@@ -44,46 +44,74 @@
               モットーは「クライアントと共にWIN-WINの関係を築く」ことです。<br></p>
             </div>
           </div>
-          <div class='row'>
-            <div class='col s12 m10 l8 offset-m1 offset-l2'>
-              <table class='centered highlight'>
-                <thead>
-                  <tr class='experience'>
-                      <th></th>
-                      <th>EXPERIENCE</th>
-                  </tr>
-                </thead>
-                <tbody class='experience'>
-                  <tr>
-                    <td>2013.3</td>
-                    <td>立命館大学 文学部 人文学科 日本文学専攻 卒業</td>
-                  </tr>
-                  <tr>
-                    <td>2013.4-2018.3</td>
-                    <td>京都府 公立中学校 国語科 正式採用教員として勤務</td>
-                  </tr>
-                  <tr>
-                    <td>2018.4-2018.6</td>
-                    <td>フィリピン セブ島 3D ACADEMYにて英語留学<br>(Intermediate Grade取得)</td>
-                  </tr>
-                  <tr>
-                    <td>2018.6-2018.7</td>
-                    <td>オーストラリア ケアンズ C.C.E.Bにて英語留学<br>(Upper Intermediate Grade取得)</td>
-                  </tr>
-                  <tr>
-                    <td>2018.7-2018.8</td>
-                    <td>オーストラリアを車で一周（14,000km）</td>
-                  </tr>
-                  <tr>
-                    <td>2018.9-2019.5</td>
-                    <td>オーストラリア パースでシェアハウス マネージャーを担当</td>
-                  </tr>
-                  <tr>
-                    <td>2019.5-Now</td>
-                    <td>プログラミング学習中 over 10 hour / Day in Kyoto</td>
-                  </tr>
-                </tbody>
-              </table>
+          <div class="row">
+            <div class='row col s12 m6'>
+              <div class='col s12 m10 l8 offset-m1 offset-l2'>
+                <table class='centered highlight'>
+                  <thead>
+                    <tr class='experience'>
+                        <th></th>
+                        <th>Experience</th>
+                    </tr>
+                  </thead>
+                  <tbody class='experience'>
+                    <tr>
+                      <td>2013.3</td>
+                      <td>立命館大学 文学部 人文学科 日本文学専攻 卒業</td>
+                    </tr>
+                    <tr>
+                      <td>2013.4-2018.3</td>
+                      <td>京都府 公立中学校 国語科 正式採用教員として勤務</td>
+                    </tr>
+                    <tr>
+                      <td>2018.4-2018.6</td>
+                      <td>フィリピン セブ島 3D ACADEMYにて英語留学<br>(Intermediate Grade取得)</td>
+                    </tr>
+                    <tr>
+                      <td>2018.6-2018.7</td>
+                      <td>オーストラリア ケアンズ C.C.E.Bにて英語留学<br>(Upper Intermediate Grade取得)</td>
+                    </tr>
+                    <tr>
+                      <td>2018.7-2018.8</td>
+                      <td>オーストラリアを車で一周（14,000km）</td>
+                    </tr>
+                    <tr>
+                      <td>2018.9-2019.5</td>
+                      <td>オーストラリア パースでシェアハウス マネージャーを担当</td>
+                    </tr>
+                    <tr>
+                      <td>2019.5-Now</td>
+                      <td>プログラミング学習中 over 10 hour / Day in Kyoto</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class='row col s12 m6'>
+              <div class='col s12 m10 l8 offset-m1 offset-l2'>
+                <table class='centered highlight'>
+                  <thead>
+                    <tr class='awards-history'>
+                        <th></th>
+                        <th>Awards History</th>
+                    </tr>
+                  </thead>
+                  <tbody class='experience'>
+                    <tr>
+                      <td>2019.9</td>
+                      <td>
+                        LINE BOTとWEB連携アプリ「ままとものやみ」で<br>
+                        東京ハッカソン@ヒーローズ・リーグ2019 Twilio賞
+                        <a href="#twilio" class='modal-trigger'>
+                          <i class="far fa-image"></i>
+                        </a>
+                        <br>
+                        他5つの個人賞獲得
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
     </div>
@@ -187,6 +215,12 @@
               <td>Cloud9<br>S3<br>EC</td>
               <td>6months</td>
               <td><i class="fas fa-thermometer-full fa-3x"></i></td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-fire fa-5x firebase"></i></td>
+              <td>Google Firebase</td>
+              <td>1months</td>
+              <td><i class="fas fa-thermometer-empty fa-3x"></i></td>
             </tr>
             <tr>
               <td class='logo heroku'>heroku</td>
@@ -347,6 +381,16 @@
             </div>
           </div>
         </div>
+        <div class="col m4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <a href="#modal10" class='modal-trigger'>
+                <img class='works-photo' src="img/mamatomo.png"sizes="(max-width: 305px) 100vw, 305px" decoding="async" loading="lazy" />
+                <span class="card-title">ままとものやみ</span>
+              </a>
+            </div>
+          </div>
+        </div>
     </div>
     <!------------------------------------------------------------------>
     <!-------------------------    Product    -------------------------->
@@ -355,33 +399,23 @@
     <!------------------------------------------------------------------>
     <!----------------------    Mobile Product    ---------------------->
     <!------------------------------------------------------------------>
-    <!--<div class='product-line blue accent-1' id='products'></div>-->
-    <!--<div class="parallax-container">-->
-    <!--  <div class="parallax"><img src="img/mobileProducts.png"></div>-->
-    <!--</div>-->
-    <!--<div class='product-line product-under-line deep-orange'></div>-->
-    <!--<div class="row" >-->
-    <!--    <div class="col s6 m2">-->
-    <!--      <div class="card">-->
-    <!--        <div class="card-image waves-effect waves-block waves-light">-->
-    <!--          <a href="#modal9" class='modal-trigger'>-->
-    <!--            <img class='works-photo' src="img/ecommerse.png" sizes="(max-width: 305px) 100vw, 305px"/>-->
-    <!--            <span class="card-title">HandsOn</span>-->
-    <!--          </a>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--    <div class="col s6 m2">-->
-    <!--      <div class="card">-->
-    <!--        <div class="card-image waves-effect waves-block waves-light">-->
-    <!--          <a href="#modal2" class='modal-trigger'>-->
-    <!--            <img class='works-photo' src="img/invoice.png"sizes="(max-width: 305px) 100vw, 305px" />-->
-    <!--            <span class="card-title">Repeeeeeeet<br>(Line Bot)</span>-->
-    <!--          </a>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--</div>-->
+    <div class='product-line blue accent-1' id='products'></div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/mobileProducts.png"></div>
+    </div>
+    <div class='product-line product-under-line deep-orange'></div>
+    <div class="row" >
+        <div class="col m3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <a href="#modal9" class='modal-trigger'>
+                <img class='works-photo' src="img/handson.jpeg" sizes="(max-width: 305px) 100vw, 305px"/>
+                <span class="card-title">HandsOn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
     <!------------------------------------------------------------------>
     <!----------------------    Mobile Product    ---------------------->
     <!------------------------------------------------------------------>

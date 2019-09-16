@@ -393,7 +393,9 @@
   </div>
   <div class="modal-footer">
     <!--<a href='https://affectionate-curie-152118.netlify.com/' target="_blank"><i class="fab fa-app-store-ios fa-3x"></i></a>-->
+    <span>現在App store申請中(Expoで使用可)</span>
     <a href='https://github.com/hirakumorishima02/react-native-memo-app' target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+    <img src="img/handsonQr.png" class="QR">
   </div>
 </div>
 <!-----------------------------------------------------------------------------
@@ -401,7 +403,7 @@
 ------------------------------------------------------------------------------->
 <div id="procrowd" class="modal">
   <div class="modal-content">
-    <img class="materialboxed" width="100%" src="img/crowdworks.png">
+    <img class="materialboxed" width="100%" src="img/crowdworks.png" decoding="async" loading="lazy">
     <div class="modal-footer">
       <a href='https://crowdworks.jp/public/employees/1979690?ref=mypage_nav1_account' target="_blank"><i class="fas fa-sign-out-alt fa-3x"></i></a>
     </div>
@@ -415,5 +417,70 @@
     <h5 class='center-align'>Contact me!</h5>
 <input type="text" id="copy-target" value="ujinchu@gmail.com" readonly>
 <i class="fas fa-copy fa-2x" onclick="clipboard_ni_copy()"></i>
+  </div>
+</div>
+<!-----------------------------------------------------------------------------
+                                Mmatomo
+------------------------------------------------------------------------------->
+<div id="modal10" class="modal">
+  <div class="modal-content">
+    <h4 class='center-align'>ままとものやみ</h4>
+    </span>
+      <table>
+        <tbody>
+          <tr>
+            <td>Production Time</td>
+            <td>2019.9.14-2019.9.15</td>
+          </tr>   
+          <tr>
+            <td>Langage</td>
+            <td>HTML/CSS</td>
+          </tr>          
+          <tr>
+            <td>FlameWork</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Use</td>
+            <td>
+              Messaging API (LINE)<br>
+              Twilio API<br>
+              Firebase Realtime Database<br>
+              Node.js<br>
+              Materialize.css<br
+              Animate.css<br>
+            </td>
+          </tr>
+          <tr>
+            <td>Remarks</td>
+            <td>
+              2019年に行われたヒーローズリーグハッカソンにて製作したプロダクトです。<br>
+              twilio賞（企業賞）受賞作品<br>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              Lineのリッチメニューを使用した投票<br>
+              Firebase Realtime Databaseとの連携<br>
+              WEBアプリで投票結果の確認<br>
+              WEBアプリでデータベースにカラムを新規作成<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <div class="modal-footer">
+    <a href='https://hirakumorishima02.github.io/mamatomo/' target="_blank"><i class="fab fa-app-store-ios fa-3x"></i></a>
+    <a href='https://github.com/hirakumorishima02/mamatomo' target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+    <img src="img/mamatomoQr.png" class="QR">
+  </div>
+</div>
+<!-----------------------------------------------------------------------------
+                                twilio
+------------------------------------------------------------------------------->
+<div id="twilio" class="modal">
+  <div class="modal-content">
+    <img class="materialboxed" width="100%" src="img/twilio.png" decoding="async" loading="lazy">
   </div>
 </div>
