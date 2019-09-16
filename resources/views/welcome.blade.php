@@ -391,6 +391,16 @@
             </div>
           </div>
         </div>
+        <div class="col m4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <a href="#modal11" class='modal-trigger'>
+                <img class='works-photo' src="img/australian-foodies.png"sizes="(max-width: 305px) 100vw, 305px" decoding="async" loading="lazy" />
+                <span class="card-title">Australian Foodies</span>
+              </a>
+            </div>
+          </div>
+        </div>
     </div>
     <!------------------------------------------------------------------>
     <!-------------------------    Product    -------------------------->
