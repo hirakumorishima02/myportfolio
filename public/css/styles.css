@@ -41,6 +41,10 @@ body{
 .awards-history > tr > td, .awards-history > th {
     color: white;
 }
+.fa-newspaper {
+    color:#039be5;
+}
+
 @media screen and (min-width:800px) {
     .profile-description{
         font-size: 20px;

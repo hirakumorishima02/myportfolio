@@ -41,7 +41,12 @@
                 <i class="far fa-image"></i>
               </a>
               に選定されています。<br>
-              モットーは「クライアントと共にWIN-WINの関係を築く」ことです。<br></p>
+              モットーは「クライアントと共にWIN-WINの関係を築く」ことです。<br>
+              侍エンジニア塾で取材をしていただきましたので、こちらも併せてご覧ください！
+              <a href="https://www.sejuku.net/blog/108721" target="_blank">
+                <i class="far fa-newspaper"></i>
+              </a>
+              </p>
             </div>
           </div>
           <div class="row">
