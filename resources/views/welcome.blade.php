@@ -114,6 +114,16 @@
                         他5つの個人賞獲得
                       </td>
                     </tr>
+                    <tr>
+                      <td>2019.9</td>
+                      <td>
+                        「まごの宅配便。」で<br>
+                        Startup Weekend Tokyo Hachijoji 2019 最優秀賞
+                        <a href="#magotaku" class='modal-trigger'>
+                          <i class="far fa-image"></i>
+                        </a>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -407,6 +417,19 @@
           </div>
         </div>
     </div>
+    <div class='row'>
+        <div class="col m4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <a href="#modal12" class='modal-trigger'>
+                <img class='works-photo' src="img/magotaku.png"sizes="(max-width: 305px) 100vw, 305px" decoding="async" loading="lazy" />
+                <span class="card-title">まごの宅配便。</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+    
     <!------------------------------------------------------------------>
     <!-------------------------    Product    -------------------------->
     <!------------------------------------------------------------------>
