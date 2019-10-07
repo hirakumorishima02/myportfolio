@@ -124,6 +124,16 @@
                         </a>
                       </td>
                     </tr>
+                    <tr>
+                      <td>2019.10</td>
+                      <td>
+                        「ネクタス」で<br>
+                        Startup Weekend Tokyo Ogaki 2019 最優秀賞
+                        <a href="#nekutasu" class='modal-trigger'>
+                          <i class="far fa-image"></i>
+                        </a>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>

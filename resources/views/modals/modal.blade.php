@@ -575,3 +575,11 @@
     <img class="materialboxed" width="100%" src="img/magotaku2.png" decoding="async" loading="lazy">
   </div>
 </div>
+<!-----------------------------------------------------------------------------
+                                ネクタス写真
+------------------------------------------------------------------------------->
+<div id="nekutasu" class="modal">
+  <div class="modal-content">
+    <img class="materialboxed" width="100%" src="img/nekutasu.jpeg" decoding="async" loading="lazy">
+  </div>
+</div>
